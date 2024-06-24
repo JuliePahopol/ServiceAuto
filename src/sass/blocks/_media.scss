@@ -1,0 +1,45 @@
+@media (max-width:1200px) {
+    .btns {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media (max-width: 991px){
+   
+}
+
+@media (max-width: 768px) {
+    .promo {
+        .main {
+            .content {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+            }
+        }
+
+
+    }
+}
+
+@media (max-width: 576px) {
+    .btns {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    // .promo {
+    //     .header {}
+
+    //     .main {
+    //         padding: ;
+    //     }
+    // }
+}

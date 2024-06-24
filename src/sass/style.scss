@@ -1,0 +1,19 @@
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+
+@import 'base/variables';
+
+* {
+    font-family: "Fahkwang", sans-serif;
+}
+
+.container {
+    padding: 20px;
+    // min-width: 950px;
+    // margin: 0 auto ;
+}
+
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/media';

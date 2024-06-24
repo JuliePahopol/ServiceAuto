@@ -1,0 +1,89 @@
+.promo {
+    
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo {
+            display: flex;
+
+            img {
+                width: 55px;
+                height: 69px;
+            }
+        }
+
+        &__items {
+            display: flex;
+
+            &__item {
+                color: #000;
+                font-size: 20px;
+                text-decoration: none;
+                margin-left: 48px;
+                font-weight: 300;
+                line-height: auto;
+
+                &:hover {
+                    font-weight: 600;
+                    transition: 0.1s all;
+                }
+            }
+
+        }
+    }
+
+    .main {
+        padding-top: 30px;
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                display: block;
+                width: 660px;
+                height: 418px;
+            }
+
+            .text {
+                display: block;
+                width: 500px;
+
+                &__title {
+                    color: black;
+                    font-size: 80px;
+                    font-weight: 700;
+                    line-height: 80px;
+                    text-align: center;
+                    letter-spacing: 6.18px;
+                    margin-bottom: 30px;
+                }
+
+                &__subtitle {
+                    color: black;
+                    font-size: 25px;
+                    font-weight: 300;
+                    line-height: 37px;
+                    letter-spacing: 0.66px;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+.btns {
+    &__wrapper {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+    }
+
+
+}
