@@ -1,5 +1,5 @@
 .promo {
-    
+    padding: 20px 0 0 0;
     .header {
         display: flex;
         align-items: center;
@@ -36,54 +36,46 @@
 
     .main {
         padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+        img {
 
-            img {
-                display: block;
-                width: 660px;
-                height: 418px;
-            }
-
-            .text {
-                display: block;
-                width: 500px;
-
-                &__title {
-                    color: black;
-                    font-size: 80px;
-                    font-weight: 700;
-                    line-height: 80px;
-                    text-align: center;
-                    letter-spacing: 6.18px;
-                    margin-bottom: 30px;
-                }
-
-                &__subtitle {
-                    color: black;
-                    font-size: 25px;
-                    font-weight: 300;
-                    line-height: 37px;
-                    letter-spacing: 0.66px;
-                    text-align: center;
-                }
-            }
+            width: 660px;
+            height: 418px;
         }
 
+        .text {
+            width: 400px;
+
+            &__title {
+                color: black;
+                font-size: 80px;
+                font-weight: 700;
+                line-height: 80px;
+                text-align: center;
+                letter-spacing: 6.18px;
+                margin-bottom: 30px;
+            }
+
+            &__subtitle {
+                color: black;
+                font-size: 25px;
+                font-weight: 300;
+                line-height: 37px;
+                letter-spacing: 0.66px;
+                text-align: center;
+            }
+        }
     }
+
 }
 
 
 
 .btns {
-    &__wrapper {
-        margin-top: 30px;
-        display: flex;
-        gap: 30px;
-    }
-
-
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
 }
