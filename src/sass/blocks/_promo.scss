@@ -1,54 +1,19 @@
 .promo {
-    padding: 20px;
-
-    .header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-        &__logo {
-            display: flex;
-
-            img {
-                width: 55px;
-                height: 69px;
-            }
-        }
-
-        &__items {
-            display: flex;
-
-            &__item {
-                color: #000;
-                font-size: 20px;
-                text-decoration: none;
-                margin-left: 48px;
-                font-weight: 300;
-                line-height: auto;
-
-                &:hover {
-                    font-weight: 600;
-                    transition: 0.1s all;
-                }
-            }
-
-        }
-    }
+    padding: 0 40px 0 40px;
 
     .main {
         padding-top: 30px;
 
         .wrapper {
-            padding-left: 50px;
-            padding-right: 50px;
+            padding: 0 50px;
             display: flex;
             justify-content: space-between;
             align-items: center;
 
             img {
 
-                width: 660px;
-                height: 418px;
+                width: 680px;
+                height: 408px;
             }
 
             .text {
@@ -78,12 +43,9 @@
 
     }
 
-}
-
-
-
-.btns {
-    margin-top: 30px;
-    display: flex;
-    gap: 30px;
+    .btns {
+        margin-top: 30px;
+        display: flex;
+        gap: 30px;
+    }
 }
